@@ -10,7 +10,6 @@ import {
   Routes
 } from "react-router-dom";
 
-
 function App() {
   const [mode, setMode] = useState('light');  //Whether dark mode is enabled or not
 
@@ -84,8 +83,15 @@ function App() {
           </Routes>
         </div>
       </Router>
+          {/* <About mode={mode} /> */}
+          {/* <TextForm showAlert={showAlert} heading="Try TextUtils - word counter, character counter, remove extra spaces" mode={mode}/> */}
     </>
   );
 }
 
+      
+
+
 export default App;
+
+
